@@ -62,6 +62,9 @@ const NewsArticle = ({ news }) => {
                 <meta property='og:title' content={newsItemGeo.title} />
                 <meta property='og:description' content='აღწერა' />
                 <meta property='og:image' content={imagePath} />
+                <meta property='og:type' content='website' />
+                <meta property='fb:app_id' content='440924728203663' />
+                <meta property='og:url' content={url} />
             </Head>
             <figure className={'image-container'}>
                 <Image src={imagePath} alt={newsItemGeo.title} fill className={'image'} />
